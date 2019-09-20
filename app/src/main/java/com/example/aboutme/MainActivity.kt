@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val myName: MyName = MyName("Obsolete")
+
     //lateinit var editText: EditText
     //lateinit var nicknameTextView: TextView
 
@@ -22,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        binding.myName = myName
 
         //findViewById<Button>(R.id.done_button).setOnClickListener {
         //    addNickname(it)
