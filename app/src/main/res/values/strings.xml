@@ -2,4 +2,11 @@
     <string name="app_name">About Me</string>
     <string name="name">Amanda</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="bio">
+        \n\nMy name is Amanda.
+        \n\nSoft tacos are just lazy burritos.
+        \n\nHard tacos all the way.
+        \n\nAlso, have you tried that Cherry Sunset Freezee thing at Taco Bell?
+        \n\nNo lie, it's the bomb.
+    </string>
 </resources>
